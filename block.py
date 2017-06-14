@@ -17,3 +17,6 @@ class Block:
             self.timestamp,
             self.data
         )
+
+    def calc_hash(self):
+        return hashlib.sha256(str(self.params().encode()).hexdigest()
