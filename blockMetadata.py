@@ -3,7 +3,7 @@ import datetime
 GENESIS_INDEX = 0
 GENESIS_PREVIOUS_HASH = '0'
 GENESIS_TIMESTAMP = datetime.datetime.now()
-GENESIS_DATA = 'first block'
+GENESIS_DATA = 'GENESIS BLOCK'
 
 
 class BlockMetadata():
